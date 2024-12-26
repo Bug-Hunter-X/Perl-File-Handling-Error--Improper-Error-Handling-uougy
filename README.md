@@ -1,0 +1,3 @@
+This repository demonstrates a common error in Perl file handling: insufficient error checking when opening a file. The `bug.pl` script shows the flawed code, while `bugSolution.pl` provides the corrected version.
+
+The original script fails if the specified file does not exist or lacks read permissions. The improved version incorporates proper error checking using the `open` function's return value and the special variable `$!` to provide informative error messages.
